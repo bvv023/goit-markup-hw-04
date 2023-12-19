@@ -1,8 +1,10 @@
 body {
   color: #434455;
+  max-width: 1440px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   background: #fff;
+  margin: 0 auto;
 }
 
 h1,
@@ -113,7 +115,6 @@ img {
   background-color: #404bbf;
   width: 48px;
   height: 4px;
-  /* margin-top: 20px; */
   left: 0;
   bottom: -1px;
   position: absolute;
@@ -153,9 +154,18 @@ address {
 .hero {
   display: flex;
   flex-direction: row;
-  background: #2e2f42;
   padding: 188px 0;
   border-bottom: 1px solid #e7e9fc;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .hero .container {
