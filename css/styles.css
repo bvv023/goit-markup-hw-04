@@ -460,18 +460,18 @@ address {
 }
 
 /*footer-info*/
-.footer {
+.footer-info {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.box-footer {
+.footer-info-box {
   display: flex;
   align-items: baseline;
 }
-.box-logo {
+.footer-info-box-logo {
   margin-right: 120px;
 }
-.logo-footer {
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -483,10 +483,10 @@ address {
   color: #4d5ae5;
   margin-bottom: 16px;
 }
-.accent-studio-footer {
+.footer-logo-second-part {
   color: #f4f4fd;
 }
-.footer-text {
+.footer-info-text {
   color: #f4f4fd;
   max-width: 264px;
 }
@@ -494,6 +494,8 @@ address {
   color: #fff;
   font-weight: 500;
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .social-menu-footer {
   display: flex;
