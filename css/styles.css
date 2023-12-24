@@ -322,8 +322,8 @@ address {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 0;
   gap: 8px;
+  padding: 32px 0;
 }
 
 .team-card-title {
@@ -371,7 +371,7 @@ address {
   background-color: #404bbf;
 }
 
-.team-card-social-list-item:focus a {
+.team-card-social-list-item:focus {
   background-color: #404bbf;
 }
 
